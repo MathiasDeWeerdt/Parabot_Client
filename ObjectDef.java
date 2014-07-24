@@ -18,14 +18,13 @@ public final class ObjectDef {
 		class46.setDefaults();
 		class46.readValues(stream);
 		// class46.hasActions = true;
-		if (class46.name != null)
+		if (class46 != null && class46.name != null) {
 			if (class46.name.equalsIgnoreCase("Door")) {
 				for (int i4 = 0; i4 < class46.anIntArray773.length; i4++)
 					class46.anIntArray773[i4] = 0;
 				class46.aBoolean767 = false;
 				return class46;
 			}
-		if(class46 != null && class46.name != null) {
 			if (class46.name.equalsIgnoreCase("gate")) {
 				for (int i4 = 0; i4 < class46.anIntArray773.length; i4++)
 					class46.anIntArray773[i4] = 0;
