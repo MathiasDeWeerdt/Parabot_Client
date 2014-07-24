@@ -5274,7 +5274,7 @@ public class client extends RSApplet {
 		}
 	}
 
-	private void doAction(int i) {
+	public void doAction(int i) {
 
 		if (i < 0)
 			return;
@@ -9210,7 +9210,7 @@ public class client extends RSApplet {
 		loginMessage2 = "@whi@Error connecting to server.";
 	}
 
-	private boolean doWalkTo(int i, int j, int k, int i1, int j1, int k1,
+	public boolean doWalkTo(int i, int j, int k, int i1, int j1, int k1,
 			int l1, int i2, int j2, boolean flag, int k2) {
 		byte byte0 = 104;
 		byte byte1 = 104;
